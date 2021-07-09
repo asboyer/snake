@@ -13,7 +13,7 @@ public class Panel extends JPanel {
         public static final int UP = 2;
         public static final int DOWN = 3;
 
-        private int refresh = 144;
+        private int refresh = 60;
 
         private Timer timer;
         private ArrayList<Part> snake;
@@ -39,7 +39,7 @@ public class Panel extends JPanel {
 
         public Panel(int width, int height) {
             try {
-                background = ImageIO.read(new File("C:/Users/baller/cs/java/snake/res/back.jpg"));
+                background = ImageIO.read(new File("./res/back.jpg"));
             }catch (Exception e){e.printStackTrace();}
             setBounds(0, 0, width, height);
             setupKeyListener();
