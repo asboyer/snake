@@ -26,5 +26,5 @@
 *any help would be appreciated!*
 
 ## Images:
-<img src="https://github.com/asboyer2/SpaceInvaders/blob/master/images/game.png"/>
+<img src="https://github.com/asboyer/snake/blob/master/images/game.png"/>
 
